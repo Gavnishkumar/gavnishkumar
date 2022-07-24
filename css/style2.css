@@ -1,0 +1,59 @@
+@media (max-width:800px) {
+    .navElem{
+      
+        display: flex;
+        flex-direction: column;
+    }
+    .sideNav{
+        flex-direction: column;
+    }
+    .closebutton{
+        margin-left: 50px;
+    }
+    .maincontent{
+      text-align: center;
+    }
+    .about{
+        width:80%;
+    }
+    .photo1,.photo2{
+        flex-direction: column;
+    }
+    .schooling{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .schooling img{
+        width: 90%;
+    }
+    .school-content{
+        justify-content: center;
+        align-items: center;
+    }
+    .skill-head{
+        font-size: 15px;
+    }
+    #skills{
+      
+        height:auto;
+    }
+    .skill-chart{
+        flex-direction: column;
+        
+        justify-content: center;
+        align-items: center;
+    }
+    .skill-chart img{
+        width: 80%;
+    }
+    .info{
+        flex-direction: column;
+    }
+    .contact-info{
+        margin-left: 23px;
+    }
+    .contact-box{
+        margin-right: 23px;
+    }
+}

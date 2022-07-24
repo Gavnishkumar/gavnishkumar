@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@1,100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ae336ea278.js" crossorigin="anonymous"></script>
+    <script src="css/myjavascript.js"></script>
+ 
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+
+</head>
+<body>
+    <header>
+        <div class="tophead">
+            <div class="brandlogo"><img src="image/11.jpg" alt=""><h3>Gavnish Kumar </h3></div>
+            <div class="menuToggleButton">
+                <span class="menulines" onclick="opennav()">&#9776;</span>
+            </div>
+        </div>
+    </header>
+    <div class="sideNav" id="mysideNav">
+       <div class="navElem">
+        <a href="#"> <i class="fa-solid fa-house"></i> Home</a>
+        <a href="#gallery"> <i class="fa-solid fa-photo-film"></i> Gallery</a>
+        <a href="#Education"> <i class="fa-solid fa-graduation-cap"></i>Education</a>
+        <a href="#skills"> <i class="fa-solid fa-code"></i>Skills</a>
+        <a href="#speeches"> <i class="fa-solid fa-volume-high"></i> Speeches</a>
+        <a href="#contact"> <i class="fa-solid fa-phone"></i> contact</a>
+    </div>
+       <div class="cross">
+           <a href="javascript:void(0)" class="closebutton" onclick="closebutton()">&times;</a>
+        </div>
+        
+    </div>
+    <div id="intro">
+        <div class="mainimage">
+            <img src="image/main.jpg" alt="">
+        </div>
+    <div class="maincontent">
+
+        <h2>Welcome to my personal website.</h2>
+        <p>
+            i am <i><strong>Gavnish kumar</strong> currently prusuing my B-Tech from IIIT Sonepat (An intitute of National Importance)</i><br>
+        </p>
+        <strong class="myskill">Web developer, programmer and speaker.
+            <p class="myreadmore" onclick="openreadmore()">Read more.....</p>
+        </strong>
+    </div>
+    <p></a></p>
+    <div class="about" id="readmore">
+        <div class="cross" onclick="closereadmore()">&times;</div><br>
+        <p>I am Gavnish Kumar student of second year B-Tech program in IIIT Sonepat(An institute of Nattional Importance). My schooling was from Ketan Convent School. An i had a good academic status in school. Some of my best Habit are when i start something then leave after completing that only i never give up. And my talent is to to made dreams true by hardwork, dedication, passion. Somewhere i am mad also in taking decisions. My favorite Game is cricket and volleyball and i have no interest in mobile games. i like Coding and website development and looking physically fit. </p> 
+    </div>
+        <div class="photo" id="gallery">
+            <h2>Gallery</h2>
+            <div class="photo1">
+                <img src="image/2.jpg" alt="">
+                <img src="image/1.jpg" alt="">
+            </div>
+            <div class="photo2">
+                <img src="image/20.jpg" alt="">
+                <img src="image/21.jpg" alt="">
+            </div>
+            <a href="gallery.html"> See more......</a>
+        </div>
+    </div>
+    <!-- My Education details -->
+    <div class="edu" id="Education">
+        <div class="head-edu">
+            <h2><i class="fa-solid fa-graduation-cap"></i> Education</h2>
+        </div>
+        <div class="schooling">
+            <div class="school-content">
+                <p><i>I had completed my 10<sup>th</sup> grade and intermidiate(PCM) from Ketan convetn school.</i></p>
+                <h4>Results</h4>
+                <p><i>10<sup>th</sup>: 90.2%</i></p>
+                <p><i>12<sup>th</sup>: 94.8%</i></p>
+                <h4>Exams qaulified during school: </h4>
+                 <p><i>JEE mains, JEE Advanced, AMUEEE</i></p> 
+                 <a href="http://kcsschool.in/" target="_blank" >click here to visti school</a>
+            </div>
+                <img src="image/school.jpg" alt="">
+        </div>
+        <div class="college schooling">
+            <div class="college-content school-content">
+               <p><i>Currently i am pursuing B-Tech program(Branch: Information Technology) in Indian institute of information technology,Sonepat.</i></p>
+               <h4>Currently lerning skills</h4>
+               <p><i>Data structure</p></i></p>
+               <p><i>competative programming in C++,</i></p>
+               <h4>learnt skills and programming</h4>
+               <p><i>C,python,php,C++,web development(HTML,CSS,Javscript,Nodejs)</i></p>
+                 <a href="http://www.iiitsonepat.ac.in/" target="_blank" >click here to visti college</a>
+            </div>
+                <img src="image/college.jpg" alt="">
+        </div>
+    </div>
+    <div id="skills">
+        <div class="skill-head">
+            <h2><i class="fa-solid fa-code"></i>Skills/programming</h2>
+        </div>
+        <div class="skill-chart">
+            <img src="image/skill-histogram.png" alt="" srcset="">
+            <img src="image/skill-piechart.png" alt="" srcset="">
+        </div>
+    </div>
+    <div id="speeches">
+        <h2>Sppeches Comming soon</h2>
+    </div>
+    <div id="contact">
+        <h2>Contact me</h2>
+        <div class="info">
+        <div class="contact-info">
+            <button><a href="mailto:gk991789@gmail.com"><i class="fa-solid fa-envelope"></i>Click to Email</a></button>
+            <button> <a href="tel:9368985917"> <i class="fa-solid fa-phone"></i>click to call</a></button>
+            <h4>Village Chuawali,Aligarh,Uttar pradesh</h4>
+        </div>
+        <div class="contact-box">
+
+            <input type="text" class="comman name" placeholder="Enter your name ">
+            <textarea name="message" id="mssg" class=" comman message" cols="26" rows="5" placeholder='Enter your message to Gavnish kumar'></textarea>
+            <button onclick="mssg()" class="common btn">Send</button>
+        </div>
+    </div>
+  
+</div>
+<footer class="footer">
+    <h2  class="footer-element">portfolio</h2>
+    <p class="footer-element">Copyright © 2022 Gavnish kumar</p>
+    <p class="footer-element">Interesting stuff &nbsp  | &nbsp Security &nbsp  | &nbsp Privacy</p>
+    <div class="socialmedia footer-element">
+        <a href="https://www.facebook.com/gavnish.kumar.94/"> <i class="fa-brands fa-facebook-square"></i></a>
+        <a href="https://www.instagram.com/gym_gavnish/"> <i class="fa-brands fa-instagram-square"></i></a>
+        <a href="https://wa.me/+919368985917?text= Hii, Gavnish *I am ........*"> <i class="fa-brands fa-whatsapp-square"></i></a>
+        <a href="https://www.linkedin.com/in/gavnish-kumar-70b847233/"> <i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://twitter.com/gavnishkumar11"> <i class="fa-brands fa-twitter-square"></i></a>
+    </div>
+</footer>
+</body>
+</html>
