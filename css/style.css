@@ -2,6 +2,12 @@
     margin: 0px;
     padding: 0px;
 }
+.loadingpage{
+    display: none;
+}
+.mainpage{
+    display: block;
+}
 .tophead{
      background-color: rgb(118 147 251);
      font-family: 'Taviraj', serif;
